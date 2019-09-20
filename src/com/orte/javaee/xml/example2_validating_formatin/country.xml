@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--<!DOCTYPE root [-->
+<!--        <!ELEMENT root (country)*>-->
+<!--        <!ELEMENT country (name|capital|description)*>-->
+<!--        <!ATTLIST country-->
+<!--                countryCode CDATA #REQUIRED>-->
+<!--        <!ELEMENT name (#PCDATA)>-->
+<!--        <!ELEMENT capital (#PCDATA)>-->
+<!--        <!ELEMENT description (#PCDATA)>-->
+<!--        ]>-->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="country.xsd">
+
+    <country countryCode="ua">
+        <name>Ukraine</name>
+        <capital>Kiev</capital>
+        <description>Ukraine is....</description>
+    </country>
+    <country countryCode="lv">
+        <name>Lithuania</name>
+        <capital>Wilnus</capital>
+        <description>Lithuania is....</description>
+
+    </country>
+    <country countryCode="de">
+        <name>Germany</name>
+        <capital>Berlin</capital>
+        <description>Germany is....</description>
+        <visa_cost currency = "usd">777</visa_cost>
+    </country>
+
+</root>
